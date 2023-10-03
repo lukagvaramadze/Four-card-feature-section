@@ -1,0 +1,146 @@
+body{
+    margin: 0;
+    background-color: #FAFAFA;
+}
+
+#header-heading{
+    font-size: 24px;
+    font-weight: 275;
+    line-height: 36px;
+    color: #4D4F62;
+    
+    margin: auto;
+    text-align: center;
+}
+
+#header-heading-2{
+    font-size: 24px;
+    font-weight: 600;
+    
+    line-height: 36px;
+    color: #4D4F62;
+    margin: auto;
+    text-align: center;
+}
+#header-paragraph{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    width: 311px;
+    color: #4D4F62;
+    margin: auto;
+    text-align: center;
+}
+#header{
+    width: 311px;
+    padding-top: 85px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#card1{
+    margin: auto;
+    width: 311px;
+    height: 222px;
+    background-color: white;
+    border-radius: 10px;
+    border-top: 3px solid #44D3D2;
+}
+#card1:hover{
+    background-color: #44D3D2;
+}
+#card-heading{
+    font-size: 20px;
+    font-weight: 600;
+    color: #4D4F62;
+    padding: 28px;
+    margin: 0;
+    padding-bottom: 8px;
+}
+#card-paragraph{
+    font-size: 16px;
+    font-weight: 400;
+    color: #4D4F62;
+    width: 250px;
+    padding: 0 28px 0 28px;
+    margin: 0;
+}
+#card-photo{
+    display: flex;
+    justify-content: flex-end;
+    padding: 28px;
+}
+
+#card2{
+    margin: auto;
+    width: 311px;
+    height: 222px;
+    background-color: white;
+    border-radius: 10px;
+    border-top: 3px solid #EA5454;
+}
+#card2:hover{
+    background-color: #EA5454;
+}
+
+#card3{
+    margin: auto;
+    width: 311px;
+    height: 222px;
+    background-color: white;
+    border-radius: 10px;
+    border-top: 3px solid #FCAE4A;
+}
+#card3:hover{
+    background-color: #FCAE4A;
+}
+
+#card4{
+    margin: auto;
+    width: 311px;
+    height: 222px;
+    background-color: white;
+    border-radius: 10px;
+    border-top: 3px solid #549EF2;
+}
+#card4:hover{
+    background-color: #549EF2;
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#card-center{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+@media (min-width: 1440px){
+    #header-heading{
+        font-size: 36px;
+        
+    }
+    #header{
+        width: 540px;
+    }
+    #header-heading-2{
+        font-size: 36px;
+    }
+    #header-paragraph{
+        font-size: 17px;
+        width: 100%;
+    }
+    #main{
+        display: flex;
+        flex-direction: row;
+        width: 65%;
+        margin: auto;
+    }
+}
+
+
